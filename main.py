@@ -49,4 +49,4 @@ async def generate_token(request: TokenRequest):
 
 @app.get("/health")
 async def health():
-    return {"status": "Auth service is running"}
+    return {"status": "Auth service is running successfully."}
